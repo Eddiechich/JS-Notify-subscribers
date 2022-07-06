@@ -1,0 +1,12 @@
+{
+  "name": "home-work-27.06.22-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "creators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+import { State } from "./states.js";
+
+let stateStatus = new State(true);
+let Ori = stateStatus.addUser("Ori Guy", "oriGuy", stateStatus);
+let Liat = stateStatus.addUser("Liat Bar","liatBar",stateStatus);
+let Orel = stateStatus.addUser("Orel Ben Haim","orelHaim",stateStatus);
+let Eddie = stateStatus.addUser("Eddie Moran","eddieMoran",stateStatus);
+let mikaLika = stateStatus.addCreator("Mika Lika","mikaLika",stateStatus);
+let mikyTech = stateStatus.addCreator("Miky Liki","mikyTech",stateStatus);
+let wreslingJhon = stateStatus.addCreator("Jhon Ron","wreslingJhon",stateStatus);
+stateStatus.updateState = false;
+Ori.joinChannel = mikaLika;
+Ori.joinChannel = wreslingJhon;
+Liat.joinChannel = mikyTech;
+Liat.joinChannel = wreslingJhon;
+Eddie.joinChannel = mikyTech;
+Eddie.joinChannel = wreslingJhon;
+Eddie.joinChannel = mikaLika;
+Orel.joinChannel = mikaLika;
+Orel.joinChannel = wreslingJhon;
+mikaLika.uploadVideo("Beauty", stateStatus);
+mikyTech.uploadVideo("My new Technice", stateStatus);
+wreslingJhon.uploadVideo("Wresling Time", stateStatus);
